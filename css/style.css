@@ -1,0 +1,213 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*----------------------- nav sec------------------------------*/
+.nav{
+    background-color: "";
+}
+.navbar-brand{
+  color: #43BCFA;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-nav .col-3{
+  text-align: center;
+}
+.navbar-nav .col-3:hover , .active{
+  background-color: #10AEF9;
+}
+.dropdown-menu{
+	border-top: 4px solid #10AEF9;
+}
+.dropdown-item:hover{
+	background: #10AEF9;
+	color: white;
+}
+/*----------------------- header sec------------------------------*/
+.header img{
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+}
+/*------------------------about-------------------------------------*/
+.about{ 
+  margin-top: 50px;
+  margin-bottom: 70px
+}
+.content{
+  margin-top: 50px;
+}
+.text-content{
+  box-shadow: 1px 1px 10px 1px black;
+
+}
+/*----------------------- service sec------------------------------*/
+.service{
+  margin-top: 30px;
+  background-color: #43BCFA;
+}
+.service h1{
+  color: white;
+  margin-top: 50px;
+}
+.ser-cards{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.ser-cards h3{
+  text-align: center;
+  margin-top: 8px;
+  color: white;
+}
+.ser-cards a{
+  text-decoration: none;
+}
+.card{
+  height: 50px;
+  width: 250px;
+}
+#ser-card1{
+  background-color: #1CA0E3;  
+}
+.drop-down{
+  display: none;
+}
+.ser-card1:hover .drop-down{
+  display: block;
+}
+.drop-icon{
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  background-color: #0D6D9E;
+  border-bottom: 2px white solid;
+}
+.drop-icon p{
+  color: white;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#ser-card2{
+  background-color: #1CA0E3;
+}
+#ser-card3{
+  background-color: #1CA0E3;
+  margin-bottom: 100px;
+}
+
+
+/* --------------------- Client Page -------------------------------------- */
+/* --------------------- Client Cards ------------------------------------- */
+.clients{
+  margin-top: 150px;
+  margin-bottom: 30px;
+
+}
+.clients-cards{
+ margin-top: 20px;
+
+}
+.client-card{
+ padding-top: 20px;
+}
+.color-part{
+ background-color: #0D6D9E;
+ height: 150px;
+}
+.line{
+ margin: 20px 40px 30px 40px;
+ border-bottom: solid 1px  #0D6D9E;
+ padding: 10px;
+
+}
+.content-part {
+ background-color: #1CA0E3;
+ height: 760px;
+}
+.client-part{
+ display: flex;
+}
+.content-part img{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ margin-top: -70px;
+ margin-left: 20px;
+ border: solid 0;
+ box-shadow: 5px 5px 15px 5px rgb(0,0,0,0.3);
+}
+.content-part h1{
+ color: white;
+ margin-top: -30px;
+ font-size: 25px;
+ margin-left: 20px;
+
+}
+.content-part p{
+ color: white;
+ margin-top: 20px;
+ font-family: 'Archivo Narrow';
+ font-size: 18px;
+ margin-left: 10px;
+
+}
+.fa-caret-right{
+ margin-left: 10px;
+ color: #18515E;
+}
+/*----------------------consulting page---------------------------*/
+.head-img{
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.head-img img{
+  margin-bottom: 30px;
+}
+/*--------------- Contacts Page ---------------------*/
+.contact-banner{
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.contact-header{
+  color: rgb(39,140,190);
+  margin-top: 20px;
+}
+.contact-part{
+  font-family: 'Archivo Narrow';
+}
+.contact-part h5 , .Trainer-part h5{
+  color: #F47B20;
+  font-size: 22px;
+}
+.contact-part a{
+  font-family: 'Archivo Narrow';
+}
+.contact-part strong{
+  font-size: 17px;
+  font-style: inherit;
+}
+.Trainer-part{
+  font-family: 'Archivo Narrow';
+  margin-bottom: 20px;
+}
+.Trainer-part a{
+  font-size: 15px;
+}
+/*------------------------------footer---------------------------------*/
+
+.face-item , .link-item{
+  background-color: rgb(15, 64, 138);
+  border-radius: 30%;
+}
+.tweet-item{
+  background-color: rgb(15, 99, 138);
+  border-radius: 30%;
+}
+.goog-item{
+  background-color: rgb(165, 12, 12);
+  border-radius: 30%;
+}
